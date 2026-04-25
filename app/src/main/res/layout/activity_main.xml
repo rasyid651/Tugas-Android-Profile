@@ -117,7 +117,7 @@
             android:id="@+id/button"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:backgroundTint="#4DD72424"
+            android:backgroundTint="#34D72424"
             android:paddingLeft="44dp"
             android:paddingTop="10dp"
             android:paddingRight="44dp"
