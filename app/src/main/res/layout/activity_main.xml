@@ -20,15 +20,15 @@
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
             android:scaleType="centerCrop"
+            android:src="@drawable/rasyidd"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.120000005"
-            android:src="@drawable/rasyidd" />
+            app:layout_constraintVertical_bias="0.120000005" />
 
         <TextView
             android:id="@+id/textView"
@@ -42,7 +42,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.08" />
+            app:layout_constraintVertical_bias="0.12" />
 
         <TextView
             android:id="@+id/textView2"
@@ -131,7 +131,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView6"
-            app:layout_constraintVertical_bias="0.48"
+            app:layout_constraintVertical_bias="0.61"
             app:strokeColor="#2563EB"
             app:strokeWidth="2dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
